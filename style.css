@@ -1,0 +1,154 @@
+#header{
+    height: 240px;
+    background-color: rgb(2, 2, 24);
+
+}
+
+#belowheader{
+    height:240px;
+    background-color: rgb(244, 246, 248);
+    
+    
+    
+}
+#third{
+    height: 150px;
+    background-color: rgb(138, 179, 241);
+}
+#fourth{
+    height: 100px;
+    background-color: antiquewhite;
+}
+#footer{
+    height: 50px;
+    background-color: rgb(2, 2, 24);
+}
+#linkcontain{
+    display: flex;
+    
+    }
+#linkcontain h3{
+    justify-content: flex-start;
+    color: white;
+    margin: auto;
+    padding-right:200px;
+    padding-left: 25px;
+    }
+
+#linkcontain a{
+    justify-content: flex-end;
+    align-items: baseline;
+    color: white;
+    margin: auto;
+    padding-right:30px;
+    font-size: 11px;
+    
+   }
+#allcontain{
+    display: flex;
+    
+    
+
+}
+#awesomecontain{
+    flex-direction: column;
+    
+    width: 300px;
+    height: auto;
+    padding-left: 42px; 
+    padding-top: 28px;   
+}
+#awesomecontain h1{
+    color: white;
+    margin: auto;
+}
+#awesomecontain p{
+    color: rgb(87, 85, 85);
+    margin:auto;
+    padding-bottom:8px;
+}
+#awesomecontain button{
+ 
+    background-color: rgba(16, 124, 248, 0.671);
+    color: white;
+    border-radius: 25%;
+
+}
+.signup{
+    color: white;
+}
+#borderph{
+    display: flex;
+    width: 400px;
+    height:216px;
+    
+    margin:auto;
+    padding-right: 35px;
+    padding-left: 35px;
+}
+#placeholder{
+    align-items: center;
+    background-color: rgba(117, 95, 95,.5);
+    color:white;
+    width: 350px;
+    height: 160px;
+    text-align:center;
+    justify-content:center;
+    margin: auto; 
+
+
+       
+}
+.texti{
+    padding-top: 80px;
+    
+
+}
+/*belowheader section*/
+#bhtitle h2 {
+    
+    /*border:solid red;*/
+    margin: auto;
+    padding-left: 260px;
+    
+    padding-top: 25px;
+
+}
+#components{
+    display: flex;
+
+
+}
+
+#ct1{
+
+    flex-direction:column;
+    margin: auto;
+    justify-content: center;
+    align-items:center;
+    padding-left: 40px;
+    
+}
+#c1 img{
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+}
+#c2 img{
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+}
+
+#c3 img{
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+
+}
+ #c4 img{
+    width: 100px;
+    height: 100px;
+    padding-top: 25px;
+
+}
