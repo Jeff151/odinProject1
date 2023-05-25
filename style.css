@@ -5,15 +5,18 @@
 }
 
 #belowheader{
-    height:240px;
+    height:300px;
     background-color: rgb(244, 246, 248);
     
     
     
 }
 #third{
-    height: 150px;
-    background-color: rgb(138, 179, 241);
+    height: 300px;
+    background-color: rgb(206, 222, 245);
+    align-content: center;
+    justify-content: center;
+   
 }
 #fourth{
     height: 100px;
@@ -109,46 +112,72 @@
     
     /*border:solid red;*/
     margin: auto;
-    padding-left: 260px;
+    padding-left: 250px;
+    padding-top:25px;
+    padding-bottom: 25px;
     
-    padding-top: 25px;
+
 
 }
 #components{
     display: flex;
-
+    justify-content:center;
+    align-items:center;
 
 }
 
 #ct1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+align-content: center;
+text-align: center;
 
-    flex-direction:column;
-    margin: auto;
-    justify-content: center;
-    align-items:center;
-    padding-left: 40px;
-    
+
 }
 #c1 img{
-    width: 100px;
-    height: 100px;
-    padding-top: 25px;
+    width: 130px;
+    height: 130px;
+    border: solid rgb(13, 134, 233);
+    
 }
 #c2 img{
-    width: 100px;
-    height: 100px;
-    padding-top: 25px;
+    width: 130px;
+    height: 130px;
+    border: solid rgb(13, 134, 233)
 }
 
 #c3 img{
-    width: 100px;
-    height: 100px;
-    padding-top: 25px;
+    width: 130px;
+    height: 130px;
+    border: solid rgb(13, 134, 233);
+    
 
 }
  #c4 img{
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
+    border: solid rgb(13, 134, 233)
+
+
+}
+/*Third*/
+
+#bigp{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    justify-content: flex-start;
     padding-top: 25px;
+    padding-left: 75px;
+    padding-right: 75px;
+
+}
+#thor{
+    padding-left: 67%;
+    font-weight: bolder;
+    font-size: medium;
 
 }
