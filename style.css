@@ -19,12 +19,14 @@
    
 }
 #fourth{
-    height: 100px;
+    height: 160px;
     background-color: antiquewhite;
+    padding-top:80px;
 }
 #footer{
     height: 50px;
     background-color: rgb(2, 2, 24);
+    display: flex;
 }
 #linkcontain{
     display: flex;
@@ -74,7 +76,9 @@
  
     background-color: rgba(16, 124, 248, 0.671);
     color: white;
-    border-radius: 25%;
+    border-radius: 25px;
+    border:solid white;
+    border-style: ridge;
 
 }
 .signup{
@@ -180,4 +184,48 @@ text-align: center;
     font-weight: bolder;
     font-size: medium;
 
+}
+/*fourth*/
+
+
+
+#bluebox{
+    width: 700px;
+    height: 75px;
+    background-color: #3882f6;
+    margin: auto;
+    padding-top:30px;
+    display:flex;
+}
+
+
+
+#top::after{
+    content: "\a";
+    white-space: pre;
+
+}
+#group{
+    padding-left:40px;
+    padding-top:3px;
+   color: white;
+}
+
+#button1 button{
+margin: auto;
+border:solid white;
+border-style:ridge;
+background-color:#3882f6;
+border-radius: 25px;
+color: white;
+}
+#button1{
+    padding-left:125px;
+    padding-top:15px;
+}
+#copy{
+    color:white;
+    margin:auto;
+    padding-top: 30px;
+    font-size:smaller;
 }
